@@ -1,0 +1,23 @@
+navbar{
+    height: 47px;
+}
+#home {
+    height: 403px;
+}
+#home p {
+    margin: -11px;
+    font-size: 14px;
+}
+#home h1{
+    font-size: 22px;
+}
+navbar ul li a {
+    padding: 8px;
+    font-size: 14px;
+}
+#services img {
+    height: 65px;
+}
+.client-item img{
+    height: 100px;
+}
