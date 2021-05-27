@@ -1,0 +1,121 @@
+body {
+    width: 1005px;
+    height: 7971px;
+}
+header{
+    justify-content: center;
+}
+
+li{
+    font-size: 43px;
+}
+
+
+.home{
+    
+}
+.home::before{
+    width: 1003px;
+}
+.home p{
+    font-size: 31px;
+}
+.about{
+    flex-direction: column;
+}
+.about img{
+    padding: 0px 0px;
+    display: block;
+    margin: auto;
+    width: 922px;
+    height: 450px;
+    margin-top: 67px;
+
+}
+
+.about p {
+    margin: 1px 61px;
+    font-size: 39px;
+}
+
+
+.all-boxes{
+    
+}
+.menu{
+    width: 1005px;
+    font-size: 40px;
+}
+.menu p{
+    font-size: 35px;
+}
+
+.form{
+    width: 898px;
+}
+.contact{
+    width: 1007px;
+}
+.all-ebox{
+    height: 829px;
+}
+.etitle{
+    margin-top: 285px;
+    height: 100px;
+}
+.ph {
+    margin-top: -244px;
+    font-size: 31px;
+}
+.etitle{
+    font-size: 40px;
+    margin-bottom: 78px;
+}
+.s-testi{
+    height: 990px;
+}
+.tbox{
+    height: 520px;
+}
+.tbox p{
+    font-size: 24px;
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+.tbox img{
+    height: 96px;
+}
+.tbox h1{
+    font-size: 37px;
+}
+
+.h-secondary{
+    font-size: 50px;
+}
+.t-head p{
+    font-size: 35px;
+}
+
+.c-head p {
+    
+    font-size: 34px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputbox input {
+    width: 418px;
+    height: 59px;
+}
+.sign h1 {
+    margin: 50px;
+}
+.inputbox input {
+    font-size: 36px;
+    font-family: 'Pattaya', sans-serif;
+}
+

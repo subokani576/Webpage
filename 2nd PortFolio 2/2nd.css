@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* Navigation Menu */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ul{
+    display: flex;
+    padding: 10px;
+    
+}
+li{
+    color: white;
+    list-style: none;
+    padding: 20px;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 20px;
+}
+
+/* Home */
+
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    margin-left: 177px;
+    margin-right: 177px;
+}
+    
+.home::before{
+    content: "";
+    background: url(bg.jpg)no-repeat center center/cover ;
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.home p{
+    text-align: center;
+    color: white;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 14px;
+    margin: 18px;
+    
+}
+.btn{
+    color: white;
+    padding: 8px 23px;
+    margin-top: 20px;
+    background-color: 	#FF1493;
+    border: 0px;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 14px;
+
+
+}
+
+
+
+/* About */
+
+
+
+.about{
+    display: flex;
+    margin-top: 200px;
+}
+.about img{
+    height: 300px;
+    width: 521px;
+    padding: 0px 31px;
+    margin-right: 34px;
+}
+.about p{
+    font-size: 17px;
+    padding: 0px 44px;
+    font-family: 'Pattaya', sans-serif;
+}
+.h-secondary{
+    font-family: 'Pattaya', sans-serif;
+    margin-bottom: 12px;
+    color: #FF1493;
+}
+
+
+/* menu */
+
+
+
+.menu{
+    margin-top: 143px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.menu p{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 20px;
+}
+.box{
+    height: 327px;
+    width: 365px;
+    margin: 46px;
+    margin: 46px 36px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 35px rgb(0 0 0 / 8%)
+} 
+
+
+.box img{
+    height: 273px;
+    margin: auto;
+    display: block;
+}
+.all-boxes{
+    display: flex;
+    align-items: center;
+    height: 1062px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Experts */
+.etitle{
+    text-align: center;
+    margin-top: 173px;
+}
+
+.all-ebox{
+    display: flex;
+    align-items: center;
+    height: 651px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ebox{
+    height: 340px;
+    width: 282px;
+    
+    margin: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    
+} 
+
+.ebox img{
+    height: 273px;
+    margin: auto;
+    display: block;
+}
+
+
+/* Testimonial */
+.s-testi{
+    height: px;
+    margin-top: 200px;
+    background: url( bg.jpg)no-repeat center center/cover;
+    height: 680px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.t-head{
+    margin:55px ;
+}
+.t-head p{
+    color: white;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.tbox img{
+    height: 50px;
+    border-radius: 24px;
+}
+
+.testi{
+    display: flex;
+    width: 979px;
+
+
+}
+.tbox{
+    border: 2px solid white;
+    height: 383px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 26px;
+}
+.tbox p{
+    font-family: 'Pattaya', sans-serif;
+    margin-top: 32px;
+    margin-bottom: 52px;
+
+}
+/* contact */
+.contact{
+    height: 628px;;
+    background: url(bg3.jpg)no-repeat center center/cover ;
+
+}
+
+.c-head{
+    text-align: center;
+}
+.c-head h1{
+    margin: 25px;
+}
+.c-head p{
+    font-family: 'Pattaya', sans-serif;
+}
+.sign{
+    text-align: center;
+}
+.sign h1{
+    margin: 87px;
+}
+.form {
+    width: 452px;
+    height: 515px;
+    margin: 23px 57px;
+    box-shadow: 0px 5px 35px rgb(0 0 0 / 8%);
+}
+.inputbox{
+
+}
+.inputbox input{
+    padding: 9px;
+    margin: 7px 63px;
+    width: 308px;
+}
+
+
+
+/* Utility Classes */
+
+
+
+.h-primary{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family: 'Pattaya', sans-serif;
+}
+.center{
+    text-align: center;
+}
+
+
+
+
+
